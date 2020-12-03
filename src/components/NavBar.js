@@ -1,4 +1,5 @@
 import React from 'react'
+import GifSearch from './GifSearch'
 
 function NavBar(props){
   const colors = {
@@ -12,6 +13,9 @@ function NavBar(props){
         <div className='navbar-header'>
           <a className='navbar-brand'>
             { props.title }
+          </a>
+          <a className='search'>
+          < GifSearch />
           </a>
         </div>
       </div>
