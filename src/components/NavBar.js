@@ -14,9 +14,6 @@ function NavBar(props){
           <a className='navbar-brand'>
             { props.title }
           </a>
-          <a className='search'>
-          < GifSearch />
-          </a>
         </div>
       </div>
     </nav>
