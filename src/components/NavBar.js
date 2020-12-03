@@ -1,4 +1,5 @@
 import React from 'react'
+import GifSearch from './GifSearch'
 
 function NavBar(props){
   const colors = {
